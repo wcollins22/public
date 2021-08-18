@@ -10,9 +10,19 @@ p {
 
 .heading {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    border-width: thick;
+    border-color: black;
+    border-style: solid;
+    background-color: transparent;
 }
+
+.heading h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+
+
 .sub-h {
     margin-right: 275px;
     margin-left: 275px;
@@ -42,17 +52,18 @@ p {
 }
 
 footer {
-    /* padding: 10px; */
+    padding: 10px;
     border-width: thin;
-    border-color: 5px;
     border-style: solid;
-    display: flex-box;
-    margin-block-start: initial;
-    margin-block-end: 50px;
+    width: fit-content;
 }
 
 footer p {
-    font-size: 10px;
+    font-size: 12px;
+}
+
+h5 {
+    margin-left: 20px;
 }
 
 
