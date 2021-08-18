@@ -1,5 +1,5 @@
 body {
-    background-color: ivory;
+    background-color: gray;
 }
 
 p {
@@ -13,21 +13,23 @@ p {
     border-width: thick;
     border-color: black;
     border-style: solid;
-    background-color: transparent;
+    background-color: red;
+    overflow: auto;
 }
 
 .heading h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+    margin-left: 250px;
+    margin-right: 250px;
 
 }
 
-
-.sub-h {
-    margin-right: 275px;
-    margin-left: 275px;
-    font-family: 'Times New Roman';
+.heading img {
+    width: 250px;
+    height: 100px;
 }
+
 
 .h {
     font-family: 'Times New Roman', Times, serif;
@@ -41,7 +43,7 @@ p {
     border-style: solid;
     border-width: thin;
     border-color: black;
-    margin-right: 0px;
+    margin-right: 4px;
 }
 
 .img_container {
@@ -49,12 +51,14 @@ p {
     justify-content: flex-end;
     align-items: flex-start;
     float: right;
+    padding-top: 20px;
 }
 
 footer {
     padding: 10px;
-    border-width: thin;
+    border-width: thick;
     border-style: solid;
+    border-color: red;
     width: fit-content;
 }
 
@@ -62,8 +66,10 @@ footer p {
     font-size: 12px;
 }
 
+
 h5 {
     margin-left: 20px;
 }
+
 
 
